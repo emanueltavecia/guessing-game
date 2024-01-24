@@ -24,11 +24,11 @@ function handleTryClick(event) {
     if (attempts === 1) {
       document.querySelector(
         '.screen2 h2'
-      ).innerText = `Você acertou em ${attempts} tentativa!`
+      ).innerText = `You got it right in ${attempts} try!`
     } else {
       document.querySelector(
         '.screen2 h2'
-      ).innerText = `Você acertou em ${attempts} tentativas!`
+      ).innerText = `You got it right in ${attempts} tries!`
     }
   }
   inputNumber.value = ''
